@@ -1,0 +1,7 @@
+# Gallica FrenchScouts PoC dependencies
+requests>=2.31.0
+spacy>=3.7.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+# French spaCy model (install after pip install):
+#   python -m spacy download fr_core_news_md
