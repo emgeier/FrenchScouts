@@ -1,0 +1,692 @@
+=== 1/3 FETCH ===
+Fetching 141 document(s) via ALTO OCR...
+[1/141] bpt6k23555475: cached, skipping
+[2/141] bpt6k2355548k: cached, skipping
+[3/141] bpt6k23555490: cached, skipping
+[4/141] bpt6k2355550n: cached, skipping
+[5/141] bpt6k23555512: cached, skipping
+[6/141] bpt6k2355552g: cached, skipping
+[7/141] bpt6k2355553w: cached, skipping
+[8/141] bpt6k23555549: cached, skipping
+[9/141] bpt6k2355555q: cached, skipping
+[10/141] bpt6k23555564: cached, skipping
+[11/141] bpt6k2355557j: cached, skipping
+[12/141] bpt6k2355558z: cached, skipping
+[13/141] bpt6k2355559c: cached, skipping
+[14/141] bpt6k23555601: cached, skipping
+[15/141] bpt6k2355561f: cached, skipping
+[16/141] bpt6k2355562v: cached, skipping
+[17/141] bpt6k23555638: cached, skipping
+[18/141] bpt6k23555794: cached, skipping
+[19/141] bpt6k2355580s: cached, skipping
+[20/141] bpt6k23555816: cached, skipping
+[21/141] bpt6k2355582m: cached, skipping
+[22/141] bpt6k2355564p: cached, skipping
+[23/141] bpt6k23555653: cached, skipping
+[24/141] bpt6k2355566h: cached, skipping
+[25/141] bpt6k2355567x: cached, skipping
+[26/141] bpt6k2355568b: cached, skipping
+[27/141] bpt6k2355569r: cached, skipping
+[28/141] bpt6k2355570d: cached, skipping
+[29/141] bpt6k2355571t: cached, skipping
+[30/141] bpt6k23555727: cached, skipping
+[31/141] bpt6k2355573n: cached, skipping
+[32/141] bpt6k23555742: cached, skipping
+[33/141] bpt6k2355575g: cached, skipping
+[34/141] bpt6k2355576w: cached, skipping
+[35/141] bpt6k23555779: cached, skipping
+[36/141] bpt6k2355578q: cached, skipping
+[37/141] bpt6k23555831: cached, skipping
+[38/141] bpt6k2355617c: cached, skipping
+[39/141] bpt6k2355584f: cached, skipping
+[40/141] bpt6k2355585v: cached, skipping
+[41/141] bpt6k23555868: cached, skipping
+[42/141] bpt6k2355587p: cached, skipping
+[43/141] bpt6k23555883: cached, skipping
+[44/141] bpt6k2355589h: cached, skipping
+[45/141] bpt6k23555905: cached, skipping
+[46/141] bpt6k2355591k: cached, skipping
+[47/141] bpt6k23555920: cached, skipping
+[48/141] bpt6k2355593d: cached, skipping
+[49/141] bpt6k2355594t: cached, skipping
+[50/141] bpt6k23555957: cached, skipping
+[51/141] bpt6k2355596n: cached, skipping
+[52/141] bpt6k23555972: cached, skipping
+[53/141] bpt6k2355598g: cached, skipping
+[54/141] bpt6k2355599w: cached, skipping
+[55/141] bpt6k23556003: cached, skipping
+[56/141] bpt6k2355601h: cached, skipping
+[57/141] bpt6k2355602x: cached, skipping
+[58/141] bpt6k2355603b: cached, skipping
+[59/141] bpt6k2355604r: cached, skipping
+[60/141] bpt6k23556055: cached, skipping
+[61/141] bpt6k2355606k: cached, skipping
+[62/141] bpt6k23556070: cached, skipping
+[63/141] bpt6k2355608d: cached, skipping
+[64/141] bpt6k2355609t: cached, skipping
+[65/141] bpt6k2355610g: cached, skipping
+[66/141] bpt6k2355611w: cached, skipping
+[67/141] bpt6k23556129: cached, skipping
+[68/141] bpt6k2355613q: cached, skipping
+[69/141] bpt6k23556144: metadata...
+  bpt6k23556144: 'Le Scout de France : revue officielle de la Fédération natio' (1930-11-01), 32 pages
+  bpt6k23556144 p1: no ALTO
+  bpt6k23556144 p7: no ALTO
+  bpt6k23556144 p8: no ALTO
+  bpt6k23556144 p14: no ALTO
+  bpt6k23556144 p20: no ALTO
+  bpt6k23556144 p26: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556144&E=ALTO&Deb=27 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556144&E=ALTO&Deb=32 (attempt 3)
+  bpt6k23556144 p32: no ALTO
+  bpt6k23556144: saved 96,579 chars from 32 pages
+[70/141] bpt6k2355615j: metadata...
+  bpt6k2355615j: 'Le Scout de France : revue officielle de la Fédération natio' (1930-11-15), 32 pages
+  bpt6k2355615j p6: no ALTO
+  bpt6k2355615j p12: no ALTO
+  bpt6k2355615j p18: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355615j&E=ALTO&Deb=19 (attempt 3)
+  bpt6k2355615j p24: no ALTO
+  bpt6k2355615j p30: no ALTO
+  bpt6k2355615j: saved 109,063 chars from 32 pages
+[71/141] bpt6k2355616z: metadata...
+  bpt6k2355616z: 'Le Scout de France : revue officielle de la Fédération natio' (1930-12-01), 28 pages
+  bpt6k2355616z p4: no ALTO
+  bpt6k2355616z p10: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355616z&E=ALTO&Deb=11 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355616z&E=ALTO&Deb=16 (attempt 3)
+  bpt6k2355616z p16: no ALTO
+  bpt6k2355616z p22: no ALTO
+  bpt6k2355616z p28: no ALTO
+  bpt6k2355616z: saved 82,532 chars from 28 pages
+[72/141] bpt6k2355618s: metadata...
+  bpt6k2355618s: 'Le Scout de France : revue officielle de la Fédération natio' (1931-01-01), 36 pages
+  bpt6k2355618s p6: no ALTO
+  bpt6k2355618s p12: no ALTO
+  bpt6k2355618s p18: no ALTO
+  bpt6k2355618s p24: no ALTO
+  bpt6k2355618s p30: no ALTO
+  bpt6k2355618s p36: no ALTO
+  bpt6k2355618s: saved 115,947 chars from 36 pages
+[73/141] bpt6k23556196: metadata...
+  bpt6k23556196: 'Le Scout de France : revue officielle de la Fédération natio' (1931-01-15), 24 pages
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556196&E=ALTO&Deb=1 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556196&E=ALTO&Deb=6 (attempt 3)
+  bpt6k23556196 p6: no ALTO
+  bpt6k23556196 p12: no ALTO
+  bpt6k23556196 p18: no ALTO
+  bpt6k23556196 p24: no ALTO
+  bpt6k23556196: saved 68,985 chars from 24 pages
+[74/141] bpt6k2355620v: metadata...
+  bpt6k2355620v: 'Le Scout de France : revue officielle de la Fédération natio' (1931-02-01), 31 pages
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355620v&E=ALTO&Deb=1 (attempt 3)
+  bpt6k2355620v p6: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355620v&E=ALTO&Deb=9 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355620v&E=ALTO&Deb=10 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355620v&E=ALTO&Deb=16 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355620v&E=ALTO&Deb=17 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355620v&E=ALTO&Deb=18 (attempt 1)
+  bpt6k2355620v p23: no ALTO
+  bpt6k2355620v p29: no ALTO
+  bpt6k2355620v: saved 105,376 chars from 31 pages
+[75/141] bpt6k23556218: metadata...
+  bpt6k23556218: 'Le Scout de France : revue officielle de la Fédération natio' (1931-02-15), 28 pages
+  bpt6k23556218 p4: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556218&E=ALTO&Deb=5 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556218&E=ALTO&Deb=10 (attempt 3)
+  bpt6k23556218 p10: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556218&E=ALTO&Deb=16 (attempt 3)
+  bpt6k23556218 p16: no ALTO
+  bpt6k23556218 p22: no ALTO
+  bpt6k23556218 p28: no ALTO
+  bpt6k23556218: saved 83,603 chars from 28 pages
+[76/141] bpt6k2355622p: cached, skipping
+[77/141] bpt6k23556233: cached, skipping
+[78/141] bpt6k2355624h: cached, skipping
+[79/141] bpt6k2355625x: cached, skipping
+[80/141] bpt6k2355626b: cached, skipping
+[81/141] bpt6k2355627r: metadata...
+  bpt6k2355627r: 'Le Scout de France : revue officielle de la Fédération natio' (1931-05-15), 28 pages
+  bpt6k2355627r p6: no ALTO
+  bpt6k2355627r p12: no ALTO
+  bpt6k2355627r p18: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355627r&E=ALTO&Deb=24 (attempt 3)
+  bpt6k2355627r p24: no ALTO
+  bpt6k2355627r: saved 84,723 chars from 28 pages
+[82/141] bpt6k23556285: metadata...
+  bpt6k23556285: 'Le Scout de France : revue officielle de la Fédération natio' (1931-06-01), 28 pages
+  bpt6k23556285 p2: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556285&E=ALTO&Deb=3 (attempt 3)
+  bpt6k23556285 p8: no ALTO
+  bpt6k23556285 p14: no ALTO
+  bpt6k23556285 p20: no ALTO
+  bpt6k23556285 p26: no ALTO
+  bpt6k23556285: saved 83,915 chars from 28 pages
+[83/141] bpt6k2355629k: metadata...
+  bpt6k2355629k: 'Le Scout de France : revue officielle de la Fédération natio' (1931-06-15), 28 pages
+  bpt6k2355629k p4: no ALTO
+  bpt6k2355629k p10: no ALTO
+  bpt6k2355629k p16: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355629k&E=ALTO&Deb=17 (attempt 3)
+  bpt6k2355629k p22: no ALTO
+  bpt6k2355629k p28: no ALTO
+  bpt6k2355629k: saved 89,210 chars from 28 pages
+[84/141] bpt6k23556307: metadata...
+  bpt6k23556307: 'Le Scout de France : revue officielle de la Fédération natio' (1931-07-01), 27 pages
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556307&E=ALTO&Deb=6 (attempt 3)
+  bpt6k23556307 p6: no ALTO
+  bpt6k23556307 p12: no ALTO
+  bpt6k23556307 p18: no ALTO
+  bpt6k23556307 p24: no ALTO
+  bpt6k23556307: saved 68,678 chars from 27 pages
+[85/141] bpt6k2355631n: metadata...
+  bpt6k2355631n: 'Le Scout de France : revue officielle de la Fédération natio' (1931-07-15), 23 pages
+  bpt6k2355631n p3: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355631n&E=ALTO&Deb=9 (attempt 3)
+  bpt6k2355631n p9: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355631n&E=ALTO&Deb=10 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355631n&E=ALTO&Deb=15 (attempt 3)
+  bpt6k2355631n p15: no ALTO
+  bpt6k2355631n p21: no ALTO
+  bpt6k2355631n: saved 72,215 chars from 23 pages
+[86/141] bpt6k23556322: metadata...
+  bpt6k23556322: 'Le Scout de France : revue officielle de la Fédération natio' (1931-08-01), 27 pages
+  bpt6k23556322 p4: no ALTO
+  bpt6k23556322 p10: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k23556322&E=ALTO&Deb=11 (attempt 3)
+  bpt6k23556322 p16: no ALTO
+  bpt6k23556322 p22: no ALTO
+  bpt6k23556322: saved 65,953 chars from 27 pages
+[87/141] bpt6k2355633g: metadata...
+  bpt6k2355633g: 'Le Scout de France : revue officielle de la Fédération natio' (1931-09-01), 28 pages
+  bpt6k2355633g p1: no ALTO
+  bpt6k2355633g p7: no ALTO
+  bpt6k2355633g p13: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355633g&E=ALTO&Deb=19 (attempt 3)
+  bpt6k2355633g p19: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k2355633g&E=ALTO&Deb=20 (attempt 3)
+  bpt6k2355633g p25: no ALTO
+  bpt6k2355633g: saved 76,391 chars from 28 pages
+[88/141] bpt6k2355634w: cached, skipping
+[89/141] bpt6k23556359: cached, skipping
+[90/141] bpt6k2355636q: cached, skipping
+[91/141] bpt6k23556374: cached, skipping
+[92/141] bpt6k2355638j: cached, skipping
+[93/141] bpt6k2355639z: cached, skipping
+[94/141] bpt6k2355640m: cached, skipping
+[95/141] bpt6k23556411: cached, skipping
+[96/141] bpt6k2355642f: cached, skipping
+[97/141] bpt6k2355643v: cached, skipping
+[98/141] bpt6k23556448: cached, skipping
+[99/141] bpt6k2355645p: cached, skipping
+[100/141] bpt6k23556463: cached, skipping
+[101/141] bpt6k2355647h: cached, skipping
+[102/141] bpt6k2355648x: cached, skipping
+[103/141] bpt6k2355649b: cached, skipping
+[104/141] bpt6k23556500: cached, skipping
+[105/141] bpt6k2355651d: cached, skipping
+[106/141] bpt6k2355652t: cached, skipping
+[107/141] bpt6k23556537: cached, skipping
+[108/141] bpt6k2355654n: cached, skipping
+[109/141] bpt6k23556552: cached, skipping
+[110/141] bpt6k2355656g: cached, skipping
+[111/141] bpt6k2355657w: cached, skipping
+[112/141] bpt6k23556589: cached, skipping
+[113/141] bpt6k2355659q: cached, skipping
+[114/141] bpt6k2355660c: cached, skipping
+[115/141] bpt6k2355661s: cached, skipping
+[116/141] bpt6k23556626: cached, skipping
+[117/141] bpt6k2355663m: cached, skipping
+[118/141] bpt6k23556641: cached, skipping
+[119/141] bpt6k2355665f: cached, skipping
+[120/141] bd6t5337217v: cached, skipping
+[121/141] bd6t53343795: cached, skipping
+[122/141] bd6t53372891: cached, skipping
+[123/141] bd6t5337290z: cached, skipping
+[124/141] bd6t5337294g: cached, skipping
+[125/141] bd6t5337325r: cached, skipping
+[126/141] bd6t5337327h: cached, skipping
+[127/141] bd6t5337328w: cached, skipping
+[128/141] bd6t53373298: cached, skipping
+[129/141] bd6t53373306: cached, skipping
+[130/141] bd6t5334026c: metadata...
+  bd6t5334026c: 'Le Scout : revue des Scouts de France' (1940-01-05), 164 pages
+  bd6t5334026c p1: no ALTO
+  bd6t5334026c p2: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=3 (attempt 4)
+  bd6t5334026c p3: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=4 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=4 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=4 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=4 (attempt 4)
+  bd6t5334026c p4: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=5 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=5 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=5 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=5 (attempt 4)
+  bd6t5334026c p5: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=6 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=6 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=6 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=6 (attempt 4)
+  bd6t5334026c p6: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=7 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=7 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=7 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=7 (attempt 4)
+  bd6t5334026c p7: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=8 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=8 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=8 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=8 (attempt 4)
+  bd6t5334026c p8: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=9 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=9 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=9 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=9 (attempt 4)
+  bd6t5334026c p9: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=10 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=10 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=10 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=10 (attempt 4)
+  bd6t5334026c p10: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=11 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=11 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=11 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=11 (attempt 4)
+  bd6t5334026c p11: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=12 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=12 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=12 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=12 (attempt 4)
+  bd6t5334026c p12: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=13 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=13 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=13 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=13 (attempt 4)
+  bd6t5334026c p13: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=14 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=14 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=14 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=14 (attempt 4)
+  bd6t5334026c p14: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=15 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=15 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=15 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=15 (attempt 4)
+  bd6t5334026c p15: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=16 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=16 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=16 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=16 (attempt 4)
+  bd6t5334026c p16: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=17 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=17 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=17 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=17 (attempt 4)
+  bd6t5334026c p17: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=18 (attempt 1)
+  bd6t5334026c p18: no ALTO
+  bd6t5334026c p19: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=20 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=20 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=20 (attempt 4)
+  bd6t5334026c p20: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=21 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=21 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=21 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=21 (attempt 4)
+  bd6t5334026c p21: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=22 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=22 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=22 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=22 (attempt 4)
+  bd6t5334026c p22: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=23 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=23 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=23 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=23 (attempt 4)
+  bd6t5334026c p23: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=24 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=24 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=24 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=24 (attempt 4)
+  bd6t5334026c p24: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=25 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=25 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=25 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=25 (attempt 4)
+  bd6t5334026c p25: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=26 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=26 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=26 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=26 (attempt 4)
+  bd6t5334026c p26: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=27 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=27 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=27 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=27 (attempt 4)
+  bd6t5334026c p27: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=28 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=28 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=28 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=28 (attempt 4)
+  bd6t5334026c p28: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=29 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=29 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=29 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=29 (attempt 4)
+  bd6t5334026c p29: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=30 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=30 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=30 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=30 (attempt 4)
+  bd6t5334026c p30: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=31 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=31 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=31 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=31 (attempt 4)
+  bd6t5334026c p31: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=32 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=32 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=32 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=32 (attempt 4)
+  bd6t5334026c p32: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=33 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=33 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=33 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=33 (attempt 4)
+  bd6t5334026c p33: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=34 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=34 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=34 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=34 (attempt 4)
+  bd6t5334026c p34: no ALTO
+  bd6t5334026c p35: no ALTO
+  bd6t5334026c p36: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=37 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=37 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=37 (attempt 4)
+  bd6t5334026c p37: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=38 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=38 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=38 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=38 (attempt 4)
+  bd6t5334026c p38: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=39 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=39 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=39 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=39 (attempt 4)
+  bd6t5334026c p39: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=40 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=40 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=40 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=40 (attempt 4)
+  bd6t5334026c p40: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=41 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=41 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=41 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=41 (attempt 4)
+  bd6t5334026c p41: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=42 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=42 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=42 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=42 (attempt 4)
+  bd6t5334026c p42: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=43 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=43 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=43 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=43 (attempt 4)
+  bd6t5334026c p43: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=44 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=44 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=44 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=44 (attempt 4)
+  bd6t5334026c p44: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=45 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=45 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=45 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=45 (attempt 4)
+  bd6t5334026c p45: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=46 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=46 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=46 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=46 (attempt 4)
+  bd6t5334026c p46: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=47 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=47 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=47 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=47 (attempt 4)
+  bd6t5334026c p47: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=48 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=48 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=48 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=48 (attempt 4)
+  bd6t5334026c p48: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=49 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=49 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=49 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=49 (attempt 4)
+  bd6t5334026c p49: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=50 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=50 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=50 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=50 (attempt 4)
+  bd6t5334026c p50: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=51 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=51 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=51 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=51 (attempt 4)
+  bd6t5334026c p51: no ALTO
+  bd6t5334026c p52: no ALTO
+  bd6t5334026c p53: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=54 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=54 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=54 (attempt 4)
+  bd6t5334026c p54: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=55 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=55 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=55 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=55 (attempt 4)
+  bd6t5334026c p55: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=56 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=56 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=56 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=56 (attempt 4)
+  bd6t5334026c p56: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=57 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=57 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=57 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=57 (attempt 4)
+  bd6t5334026c p57: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=58 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=58 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=58 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=58 (attempt 4)
+  bd6t5334026c p58: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=59 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=59 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=59 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=59 (attempt 4)
+  bd6t5334026c p59: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=60 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=60 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=60 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=60 (attempt 4)
+  bd6t5334026c p60: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=61 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=61 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=61 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=61 (attempt 4)
+  bd6t5334026c p61: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=62 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=62 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=62 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=62 (attempt 4)
+  bd6t5334026c p62: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=63 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=63 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=63 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=63 (attempt 4)
+  bd6t5334026c p63: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=64 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=64 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=64 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=64 (attempt 4)
+  bd6t5334026c p64: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=65 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=65 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=65 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=65 (attempt 4)
+  bd6t5334026c p65: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=66 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=66 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=66 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=66 (attempt 4)
+  bd6t5334026c p66: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=67 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=67 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=67 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=67 (attempt 4)
+  bd6t5334026c p67: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=68 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=68 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=68 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=68 (attempt 4)
+  bd6t5334026c p68: no ALTO
+  bd6t5334026c p69: no ALTO
+  bd6t5334026c p70: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=71 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=71 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=71 (attempt 4)
+  bd6t5334026c p71: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=72 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=72 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=72 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=72 (attempt 4)
+  bd6t5334026c p72: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=73 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=73 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=73 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=73 (attempt 4)
+  bd6t5334026c p73: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=74 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=74 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=74 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=74 (attempt 4)
+  bd6t5334026c p74: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=75 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=75 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=75 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=75 (attempt 4)
+  bd6t5334026c p75: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=76 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=76 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=76 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=76 (attempt 4)
+  bd6t5334026c p76: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=77 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=77 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=77 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=77 (attempt 4)
+  bd6t5334026c p77: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=78 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=78 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=78 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=78 (attempt 4)
+  bd6t5334026c p78: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=79 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=79 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=79 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=79 (attempt 4)
+  bd6t5334026c p79: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=80 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=80 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=80 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=80 (attempt 4)
+  bd6t5334026c p80: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=81 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=81 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=81 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=81 (attempt 4)
+  bd6t5334026c p81: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=82 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=82 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=82 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=82 (attempt 4)
+  bd6t5334026c p82: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=83 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=83 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=83 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=83 (attempt 4)
+  bd6t5334026c p83: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=84 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=84 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=84 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=84 (attempt 4)
+  bd6t5334026c p84: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=85 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=85 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=85 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=85 (attempt 4)
+  bd6t5334026c p85: no ALTO
+  bd6t5334026c p86: no ALTO
+  bd6t5334026c p87: no ALTO
+  ReadTimeout on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=88 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=88 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=88 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=88 (attempt 4)
+  bd6t5334026c p88: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=89 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=89 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=89 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=89 (attempt 4)
+  bd6t5334026c p89: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=90 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=90 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=90 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=90 (attempt 4)
+  bd6t5334026c p90: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=91 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=91 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=91 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=91 (attempt 4)
+  bd6t5334026c p91: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=92 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=92 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=92 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=92 (attempt 4)
+  bd6t5334026c p92: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=93 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=93 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=93 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=93 (attempt 4)
+  bd6t5334026c p93: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=94 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=94 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=94 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=94 (attempt 4)
+  bd6t5334026c p94: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=95 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=95 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=95 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=95 (attempt 4)
+  bd6t5334026c p95: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=96 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=96 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=96 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=96 (attempt 4)
+  bd6t5334026c p96: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=97 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=97 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=97 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=97 (attempt 4)
+  bd6t5334026c p97: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=98 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=98 (attempt 2)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=98 (attempt 3)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=98 (attempt 4)
+  bd6t5334026c p98: no ALTO
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=99 (attempt 1)
+  ConnectionError on https://gallica.bnf.fr/RequestDigitalElement?O=bd6t5334026c&E=ALTO&Deb=99 (attempt 2)
+  bd6t5334026c p99: no ALTO
