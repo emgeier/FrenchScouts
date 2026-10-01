@@ -34,6 +34,11 @@ PLOTS = [
     ("docs_per_year.png", "Document coverage: how many issues per year."),
     ("sentiment_vs_quality.png",
      "Sanity check: sentiment vs OCR quality. A flat cloud means sentiment is not merely OCR noise."),
+    ("top_words.png", "Most frequent content words (nouns, verbs, adjectives, adverbs) across the corpus."),
+    ("violence_over_time.png",
+     "Violence-related vocabulary over time, normalized as words per 1,000 (so long issues aren't flagged just for length)."),
+    ("violence_by_theme.png",
+     "Violence vocabulary broken down by theme (war/combat, physical violence, weapons, conflict/aggression)."),
 ]
 
 
@@ -64,7 +69,29 @@ def _table_html(df: pd.DataFrame) -> str:
     )
 
 
-def build(min_quality: float) -> None:
+def _top_words_section(top_n: int) -> str:
+    """Render the top content-words table, or an empty string if not generated."""
+    tw_csv = config.DATA / "top_words.csv"
+    if not tw_csv.exists():
+        return ""
+    tw = pd.read_csv(tw_csv).head(top_n)
+    # Compact multi-column layout: rank. word (freq) chips.
+    chips = "".join(
+        f'<li><span class="r">{int(row["rank"])}</span> '
+        f'<span class="w">{html.escape(str(row["word"]))}</span> '
+        f'<span class="f">{int(row["frequency"]):,}</span></li>'
+        for _, row in tw.iterrows()
+    )
+    return (
+        f'<h2>Top {len(tw)} content words</h2>'
+        f'<p>Most frequent meaning-bearing words (nouns, verbs, adjectives, adverbs; '
+        f'lemmatized; stopwords, function words, numbers and OCR noise excluded). '
+        f'Number is corpus-wide frequency.</p>'
+        f'<ol class="wordgrid">{chips}</ol>'
+    )
+
+
+def build(min_quality: float, top_words: int = 100) -> None:
     if not config.RESULTS_CSV.exists():
         sys.exit("No data/results.csv — run the pipeline first: python main.py")
     df = pd.read_csv(config.RESULTS_CSV)
@@ -88,6 +115,7 @@ def build(min_quality: float) -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     plots_html = "\n".join(_img_tag(PLOTS_DIR / name, cap) for name, cap in PLOTS)
     table_html = _table_html(df)
+    top_words_html = _top_words_section(top_words)
 
     page = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"/>
@@ -112,6 +140,11 @@ def build(min_quality: float) -> None:
   .note {{ background: #fff8e1; border-left: 4px solid #ffb300; padding: .6rem 1rem; }}
   .caveats {{ background: #f0f4ff; border-left: 4px solid #5c7cfa; padding: .6rem 1rem; }}
   .missing {{ color: #b00; }}
+  .wordgrid {{ list-style: none; padding: 0; margin: 1rem 0; column-width: 220px; column-gap: 1.5rem; }}
+  .wordgrid li {{ break-inside: avoid; padding: 2px 0; }}
+  .wordgrid .r {{ display: inline-block; width: 2.2em; color: #999; text-align: right; }}
+  .wordgrid .w {{ font-weight: 600; }}
+  .wordgrid .f {{ color: #666; font-size: .85em; }}
   footer {{ color: #888; font-size: .8rem; margin-top: 2rem; }}
 </style></head><body>
 
@@ -129,6 +162,8 @@ def build(min_quality: float) -> None:
 
 <h2>Figures</h2>
 {plots_html}
+
+{top_words_html}
 
 <h2>Methodology</h2>
 <p>Full-document OCR text was retrieved from Gallica's machine APIs (per-page ALTO
@@ -182,5 +217,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--min-quality", type=float, default=0.0,
                     help="Only include documents with ocr_quality >= this value.")
+    ap.add_argument("--top-words", type=int, default=100,
+                    help="How many top content words to list in the report.")
     args = ap.parse_args()
-    build(args.min_quality)
+    build(args.min_quality, top_words=args.top_words)

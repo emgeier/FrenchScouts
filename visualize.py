@@ -51,6 +51,8 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--min-quality", type=float, default=0.0,
                     help="Drop documents with ocr_quality below this (0..1).")
+    ap.add_argument("--top-words", type=int, default=30,
+                    help="How many words in the top-words bar chart (reads data/top_words.csv).")
     args = ap.parse_args()
 
     try:
@@ -132,7 +134,89 @@ def main() -> None:
     fig.savefig(PLOTS_DIR / "sentiment_vs_quality.png", dpi=150)
     plt.close(fig)
 
-    print(f"\nWrote 4 plot(s) to {PLOTS_DIR}/")
+    # ── 5. Top content words (horizontal bar chart) ───────────────────────
+    # Reads data/top_words.csv (produced by top_words.py). Skipped with a note
+    # if that file doesn't exist yet.
+    top_csv = config.DATA / "top_words.csv"
+    if top_csv.exists():
+        tw = pd.read_csv(top_csv)
+        n_bars = min(args.top_words, len(tw))
+        top = tw.head(n_bars).iloc[::-1]  # reverse so rank 1 is at the top
+        fig, ax = plt.subplots(figsize=(9, max(5, n_bars * 0.28)))
+        ax.barh(top["word"], top["frequency"], color="#8e44ad")
+        ax.set_xlabel("Total frequency (corpus-wide)")
+        ax.set_title(f"Top {n_bars} content words — French scouting journals")
+        ax.tick_params(axis="y", labelsize=8)
+        fig.tight_layout()
+        fig.savefig(PLOTS_DIR / "top_words.png", dpi=150)
+        plt.close(fig)
+        n_plots = 5
+    else:
+        print("Note: data/top_words.csv not found — run `python top_words.py` to "
+              "generate the word-frequency chart. Skipping it for now.")
+        n_plots = 4
+
+    # ── 6 & 7. Violence vocabulary over time ──────────────────────────────
+    # Reads data/violence_by_issue.csv (from violence.py). The headline metric is
+    # the RATE per 1,000 words, so long issues aren't flagged just for length.
+    viol_csv = config.DATA / "violence_by_issue.csv"
+    if viol_csv.exists():
+        v = pd.read_csv(viol_csv)
+        v = v.dropna(subset=["year"]).copy()
+        if not v.empty:
+            v["year"] = v["year"].astype(int)
+            vby = v.groupby("year")
+            vyears = sorted(v["year"].unique())
+            v_single = len(vyears) < 2
+
+            # 6. Rate over time (per-issue scatter + yearly mean).
+            mean_rate = vby["violence_rate_per_1k"].mean()
+            fig, ax = plt.subplots(figsize=(10, 5))
+            ax.scatter(v["year"], v["violence_rate_per_1k"], alpha=0.4, s=25,
+                       color="firebrick", label="per issue")
+            if not v_single:
+                ax.plot(mean_rate.index, mean_rate.values, "-o", color="black",
+                        linewidth=2, label="yearly mean")
+            else:
+                ax.scatter(mean_rate.index, mean_rate.values, color="black", s=120,
+                           marker="D", label="yearly mean")
+            ax.set_xlabel("Year")
+            ax.set_ylabel("Violence words per 1,000 words")
+            ax.set_title("Violence-related vocabulary over time (length-normalized)")
+            ax.legend()
+            fig.tight_layout()
+            fig.savefig(PLOTS_DIR / "violence_over_time.png", dpi=150)
+            plt.close(fig)
+
+            # 7. Stacked theme breakdown by year (mean rate split by theme).
+            themes = ["war_combat", "physical_violence", "weapons", "conflict_aggression"]
+            themes = [t for t in themes if t in v.columns]
+            if themes:
+                # Convert per-theme counts to per-1k rates, then average by year.
+                for t in themes:
+                    v[t + "_rate"] = 1000 * v[t] / v["total_words"].clip(lower=1)
+                theme_means = vby[[t + "_rate" for t in themes]].mean()
+                fig, ax = plt.subplots(figsize=(10, 5))
+                bottom = None
+                for t in themes:
+                    vals = theme_means[t + "_rate"].values
+                    ax.bar(theme_means.index, vals, bottom=bottom, label=t.replace("_", " "))
+                    bottom = vals if bottom is None else bottom + vals
+                ax.set_xlabel("Year")
+                ax.set_ylabel("Words per 1,000 (mean)")
+                ax.set_title("Violence vocabulary by theme, over time")
+                ax.legend(fontsize=8)
+                fig.tight_layout()
+                fig.savefig(PLOTS_DIR / "violence_by_theme.png", dpi=150)
+                plt.close(fig)
+                n_plots += 2
+            else:
+                n_plots += 1
+    else:
+        print("Note: data/violence_by_issue.csv not found — run `python violence.py` "
+              "to generate the violence-over-time charts. Skipping them.")
+
+    print(f"\nWrote {n_plots} plot(s) to {PLOTS_DIR}/")
     for p in sorted(PLOTS_DIR.glob("*.png")):
         print(f"  {p.name}")
 

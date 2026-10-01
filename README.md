@@ -63,11 +63,31 @@ python visualize.py # plots over time -> data/plots/*.png
 - `wordcount_over_time.png` — mean total/content words per year
 - `docs_per_year.png` — how many documents you have per year (coverage)
 - `sentiment_vs_quality.png` — sanity check that sentiment isn't just OCR noise
+- `top_words.png` — most frequent content words (needs `top_words.csv`; see below)
 
 ```bash
-python visualize.py                   # plot everything
-python visualize.py --min-quality 0.6 # drop low-OCR-quality docs first
+python visualize.py                     # plot everything
+python visualize.py --min-quality 0.6   # drop low-OCR-quality docs first
+python visualize.py --top-words 50      # how many bars in the word-frequency chart
 ```
+
+### Top content words
+
+`top_words.py` ranks the most frequent meaning-bearing words across the whole
+corpus — nouns, verbs, adjectives, and adverbs only. Stopwords, function words
+(pronouns, prepositions, articles, conjunctions, auxiliaries), numbers, and
+OCR-garbage tokens are excluded, and words are lemmatized so plurals/conjugations
+collapse (scouts→scout). Writes `data/top_words.csv`.
+
+```bash
+python top_words.py                 # top 100 to the console + full CSV
+python top_words.py --top 50
+python top_words.py --keep-propn    # also count proper nouns (names, places)
+python top_words.py --min-quality 0.6
+```
+
+Run `top_words.py` before `visualize.py`/`report.py` if you want the word chart
+and the top-words table in the outputs.
 
 ### Sharing a report
 
@@ -127,5 +147,4 @@ two. To update it later, re-run `python report.py`, then
 ## Notes
 
 - Rate limiting and a descriptive User-Agent are set in `config.py`. Please keep
-  requests polite — Gallica is a shared public service. Update the contact email
-  in `USER_AGENT`.
+  requests polite — Gallica is a shared public service. 
